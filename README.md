@@ -39,4 +39,4 @@ With the project I designed this for, I don't really need to make the script muc
 	* This could be avoided, by just adding a pause function and giving the scene its own AudioStream and script though
 * Pause functionality
 * Multi-track support (e.g. bgm + ambience)
-* Make hard-switching optional thru code variables and functions (if BGM needs to change nicely within the same scene, and not hard-cut between two scenes such as a Main Menu and Level scene
+* Make hard-switching optional thru code variables and functions (if BGM needs to change nicely within the same scene, and not hard-cut between two scenes such as a Main Menu and Level scene)
