@@ -29,9 +29,9 @@ The selected song will nicely fade-in, or if something is already playing it wil
 * As is, if left alone, the currently playing song will automatically fade out once it nears the end of the song, wait a couple of seconds, and then play the same song over again. This is intended to be useful for game menu music, as well as ingame BGM tracks that need to loop cleanly
 
 **Possible Improvements**
-* With the project I designed this for, I don't really need to make the script much more complex for now, that said here are the ideas I have for it if I need to get more fine-grained control if the game complexity increases:
-** Make looping adjustable in case a song is needed to play, but only once, in a given scene
-*** This could be avoided, by just adding a pause function and giving the scene its own AudioStream and script though
-** Pause functionality
-** Multi-track support (e.g. bgm + ambience)
-** Make hard-switching optional thru code variables and functions (if BGM needs to change nicely within the same scene, and not hard-cut between two scenes such as a Main Menu and Level scene
+With the project I designed this for, I don't really need to make the script much more complex for now, that said here are the ideas I have for it if I need to get more fine-grained control if the game complexity increases:
+* Make looping adjustable in case a song is needed to play, but only once, in a given scene
+** This could be avoided, by just adding a pause function and giving the scene its own AudioStream and script though
+* Pause functionality
+* Multi-track support (e.g. bgm + ambience)
+* Make hard-switching optional thru code variables and functions (if BGM needs to change nicely within the same scene, and not hard-cut between two scenes such as a Main Menu and Level scene
