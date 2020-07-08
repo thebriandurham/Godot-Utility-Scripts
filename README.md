@@ -4,7 +4,11 @@
 
 ## audio_mixer.gd
 Plays BGM music nicely. Godot does not have built-in fade-in or -out support for the AudioStream node.
-To use: 
+
+*License*
+Feel free to use it anywhere and everywhere. If you feel like crediting, go for it. If not, no biggie.
+
+*To use:* 
 1. Create a new scene in Godot using default Node type
 2. Name the scene whatever you like (e.g. audio_mixer)
 3. Add two children to the parent node: AudioStreamer, Timer
