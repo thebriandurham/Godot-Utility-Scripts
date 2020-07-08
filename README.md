@@ -18,8 +18,7 @@ To use:
 
 Now whenever you have a scene that needs to play background music, or switch from what's currently playing to its own music, you can call the global node and have it call play_song function, e.g.:
 
-<pre><code>
-var my_song = load($path_to_song_file)
+<pre><code>var my_song = load($path_to_song_file)
 AudioMixer.play_song(my_song)
 </code></pre>
 
